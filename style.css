@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('triangle.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    text-align: center;
+    align-items: center;
+}
+
+
+.nav {
+    background-color: #a000fc;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 1.25rem;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    height: 60px;
+    margin-top: 0rem;
+}
+#button {
+    width: 30rem;
+    border: 2px;
+    border-color: black;
+    background: #ffe;
+    border-radius: 5px;
+    margin: 2rem;
+    padding: auto;
+    margin-left: 32rem ;
+    text-align: center;
+}
+
+a {
+    display: block;
+    width: 100%;
+    line-height: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    align-content: center;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 4rem;
+    padding-top: 2rem;
+    align-items: center;
+    background-color:#7C3AED;
+    color: white;
+    font-weight: bold;
+}
+a:hover {
+    color: #110114;
+    background:#8971eb;
+}
+
+.footer {
+    background-color: #a000fc;
+    padding: 1rem;
+    text-align: center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    height: 80px;
+    font-weight: bold;
+    color: white;
+    margin-top: 1rem;
+}
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem 1rem 1rem;
+    color: white;
+}
+  
+.unordered {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+  
+.list-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
