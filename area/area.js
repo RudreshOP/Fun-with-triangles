@@ -11,7 +11,7 @@ function calculate(b,h){
 function calculateArea(){
     const multi = calculate(Number(input1[0].value),Number(input1[1].value));
     const area = 0.5*(multi);
-    result.innerText = "Area:- "+ area;
+    result.innerText = "Area of the triangle: "+ area;
 }
 
 
